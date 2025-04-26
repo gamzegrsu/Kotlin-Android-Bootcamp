@@ -1,0 +1,65 @@
+paket com.example.kotlindersleri_. Odevler
+
+
+
+fun icAciToplami(kenarSayisi: Int): Int {
+    dönüş (kenarSayisi - 2) * 180
+}
+
+fun maasHesapla(gunSayisi: Int): Int {
+    val çalışSaati = günSayisi * 8
+    val normalSaatUcreti = 10
+    val mesaiUcreti = 20
+
+    return if (calismaSaati <= 160) {
+ ÇalışSaati * normalSaati Ücret
+    } başka {
+        val mesaiSaati = çalışSaati - 160
+        (160 * normalSaatUcreti) + (mesaiSaati * mesaİUcreti)
+    }
+}
+
+fun kotaUcretiHesapla(kotaGb: Int): Int {
+    val kotaSiniri = 50
+    val kotaUcreti = 100
+    val asimUcreti = 4
+
+    return if (kotaGb <= kotaSiniri) {
+        kotaUcreti
+    } başka {
+        val ekstraGb = kotaGb - kotaSiniri
+        kotaUcreti + (ekstraGb * asimUcreti)
+    }
+}
+
+fun dereceToFahrenheit(celsius: Double): Çift {
+    Dönüş Santigrat * 1.8 + 32
+}
+
+fun dikdörtgenCevresi(kenar1: Int, kenar2: Int): Int {
+    Dönüş 2 * (Kenar1 + Kenar2)
+}
+
+fun faktoriyel(sayi: Int): Int {
+    var sonuc = 1
+    için (i içinde 1..sayi) {
+        sonuc *= i
+    }
+    Geri Dönüş Sonu
+}
+
+fun aHarfiSayisi(kelime: String): Int {
+    return kelime.count { it == 'a' || it == 'A' }
+}
+
+
+Eğlenceli ana() {
+    println("6 kenarlı şekilde ic acilari toplami: ${icAciToplami(6)} derece")
+    println("22 gün çalışan birinin maasi: ${maasHesapla(22)} ")
+    println("60 GB internet kullanan birinin ödülü ücret: ${kotaUcretiHesapla(60)} ")
+
+    println("30 derece Fahrenheit: ${dereceToFahrenheit(30.0)}")
+    println("dikdörtgen çevresi (3, 4): ${dikdortgenCevresi(3, 4)}")
+    println("5'in faktoriyel: ${faktoriyel(5)}")
+    println("\"Ankara\" kelimesinde 'a' sayisi: ${aHarfiSayisi("Ankara")}")
+}
