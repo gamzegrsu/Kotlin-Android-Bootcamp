@@ -1,1 +1,52 @@
+fun main() {
+    val sehir = "Tokyo"
+    val ulke = "Japonya"
+    val telefon = "+81 90 1234 5678"
+    val postaKodu = "100-0001"
+    val email = "naruto@konohagakure.jp"
+    val meslek = "Ninja"
+    val stokMiktari = 999
+    val musteriAdi = "Sakura Haruno"
+    val bakiye = 12345.67
+    val dogumGunu = "2002-10-10"
+    val maas = 720000
+    val medeniDurum = "Bekar"
+    val urunYorum = "Bu ramen hayatımda yediğim en iyisiydi!"
+
+    val odemeTarihi = "2025-07-01"
+    val odeme = 3500.0
+    val siparisAdeti = 7
+    val arabaModeli = "Nissan Skyline GT-R R34"
+    val kitapAdi = "Shonen Jump"
+    val yayinlamaTarihi = "1999-11-20"
+    val indirimMiktari = 20.0
+    val odaSayisi = 1
+    val enlem = 35.6895
+    val boylam = 139.6917
+    val urunAdi = "Sharingan Lens"
+    val yemekFiyati = 1500.0
+
+    val marka = "Studio Ghibli"
+    val muzikAdi = "Unravel" // Tokyo Ghoul
+    val videoSuresi = "1:30"
+    val urunPuani = 5.0
+    val resimAdi = "saitama_punch.png"
+    val dosyaFormati = "PNG"
+    val renk = "Kırmızı"
+    val renkKodu = "#FF0000"
+    val telefonModeli = "Sony Xperia Anime Edition"
+    val ekranBoyutu = 6.5
+    val agirlik = 182.0
+
+    val ulusalGun = "Golden Week"
+    val tatilGunu = "Obon Festivali"
+    val rezervasyonTarihi = "2025-08-15"
+    val sokakAdi = "Akihabara Dori"
+    val otobusHatti = "Naruto Express 7"
+    val kalanDakika = 9
+    val takipKodu = "ANIME12345JP"
+    val kuponSuresi = "14 gün"
+    val kuponKodu = "RAMENLOVE"
+    val faturaAdresi = "Konoha, Ateş Ülkesi, Japonya"
+}
 
